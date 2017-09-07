@@ -38,16 +38,19 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         app.setPage("loginpage");
-
+        $("body").click(function(e){
+            alert("123");
+        });
         $("#submit").click(function(e){
             e.preventDefault();
 
+            alert("click");return;
             var a = $('*[data-nc_page="loginpage"]');
         
             __nc.post(_config.url,{
                 method:"login",
                 email:a.find('input[name="email"]').val(),
-                password:a.find('input[name="password"]').val('')
+                password:a.find('input[name="password"]').val()
             },function(d){
                 if(d.error){
                     alert(d.msg);
