@@ -1,5 +1,8 @@
 var __nc = {
     post:function(a,b,c,f){
+        console.log(a);
+        console.log(b);
+        return;
         $.ajax({
             type:"POST",
             url:a,
