@@ -53,12 +53,12 @@
     <!-- Define app icon and splashscreen for each platform. 
     generated with http://pgicons.abiro.com/ -->
     <platform name="android">
-        <icon   src="www/res/icon/android/icon-36-ldpi.png"               density="ldpi" />
-        <icon   src="www/res/icon/android/icon-48-mdpi.png"               density="mdpi" />
-        <icon   src="www/res/icon/android/icon-72-hdpi.png"               density="hdpi" />
-        <icon   src="www/res/icon/android/icon-96-xhdpi.png"              density="xhdpi" />
-        <icon   src="www/res/icon/android/icon-144-xxhdpi.png"             density="xxhdpi" />
-        <icon   src="www/res/icon/android/icon-192-xxxhdpi.png"            density="xxxhdpi" />
+        <icon   src="www/res/icons/android/icon-36-ldpi.png"               density="ldpi" />
+        <icon   src="www/res/icons/android/icon-48-mdpi.png"               density="mdpi" />
+        <icon   src="www/res/icons/android/icon-72-hdpi.png"               density="hdpi" />
+        <icon   src="www/res/icons/android/icon-96-xhdpi.png"              density="xhdpi" />
+        <icon   src="www/res/icons/android/icon-144-xxhdpi.png"             density="xxhdpi" />
+        <icon   src="www/res/icons/android/icon-192-xxxhdpi.png"            density="xxxhdpi" />
         <splash src="www/res/screen/android/screen-ldpi-landscape.png"      density="land-ldpi" />
         <splash src="www/res/screen/android/screen-mdpi-landscape.png"      density="land-mdpi" />
         <splash src="www/res/screen/android/screen-hdpi-landscape.png"      density="land-hdpi" />
@@ -74,21 +74,21 @@
     </platform>
 
     <platform name="ios">
-        <icon   src="www/res/icon/ios/icon.png"                         platform="ios" width="57"   height="57" />
-        <icon   src="www/res/icon/ios/icon-2x.png"                      platform="ios" width="114"  height="114" />
-        <icon   src="www/res/icon/ios/icon-40.png"                      platform="ios" width="40"   height="40" />
-        <icon   src="www/res/icon/ios/icon-40-2x.png"                   platform="ios" width="80"   height="80" />
-        <icon   src="www/res/icon/ios/icon-50.png"                      platform="ios" width="50"   height="50" />
-        <icon   src="www/res/icon/ios/icon-50-2x.png"                   platform="ios" width="100"  height="100" />
-        <icon   src="www/res/icon/ios/icon-60.png"                      platform="ios" width="60"   height="60" />
-        <icon   src="www/res/icon/ios/icon-60-2x.png"                   platform="ios" width="120"  height="120" />
-        <icon   src="www/res/icon/ios/icon-60-3x.png"                   platform="ios" width="180"  height="180" />
-        <icon   src="www/res/icon/ios/icon-72.png"                      platform="ios" width="72"   height="72" />
-        <icon   src="www/res/icon/ios/icon-72-2x.png"                   platform="ios" width="144"  height="144" />
-        <icon   src="www/res/icon/ios/icon-76.png"                      platform="ios" width="76"   height="76" />
-        <icon   src="www/res/icon/ios/icon-76-2x.png"                   platform="ios" width="152"  height="152" />
-        <icon   src="www/res/icon/ios/icon-small.png"                   platform="ios" width="29"   height="29" />
-        <icon   src="www/res/icon/ios/icon-small-2x.png"                platform="ios" width="58"   height="58" />
+        <icon   src="www/res/icons/ios/icon.png"                         platform="ios" width="57"   height="57" />
+        <icon   src="www/res/icons/ios/icon-2x.png"                      platform="ios" width="114"  height="114" />
+        <icon   src="www/res/icons/ios/icon-40.png"                      platform="ios" width="40"   height="40" />
+        <icon   src="www/res/icons/ios/icon-40-2x.png"                   platform="ios" width="80"   height="80" />
+        <icon   src="www/res/icons/ios/icon-50.png"                      platform="ios" width="50"   height="50" />
+        <icon   src="www/res/icons/ios/icon-50-2x.png"                   platform="ios" width="100"  height="100" />
+        <icon   src="www/res/icons/ios/icon-60.png"                      platform="ios" width="60"   height="60" />
+        <icon   src="www/res/icons/ios/icon-60-2x.png"                   platform="ios" width="120"  height="120" />
+        <icon   src="www/res/icons/ios/icon-60-3x.png"                   platform="ios" width="180"  height="180" />
+        <icon   src="www/res/icons/ios/icon-72.png"                      platform="ios" width="72"   height="72" />
+        <icon   src="www/res/icons/ios/icon-72-2x.png"                   platform="ios" width="144"  height="144" />
+        <icon   src="www/res/icons/ios/icon-76.png"                      platform="ios" width="76"   height="76" />
+        <icon   src="www/res/icons/ios/icon-76-2x.png"                   platform="ios" width="152"  height="152" />
+        <icon   src="www/res/icons/ios/icon-small.png"                   platform="ios" width="29"   height="29" />
+        <icon   src="www/res/icons/ios/icon-small-2x.png"                platform="ios" width="58"   height="58" />
         <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png"     platform="ios" width="640"  height="1136" />
         <splash src="www/res/screen/ios/screen-iphone-portrait-667h.png"               platform="ios" width="750"  height="1334" />
         <splash src="www/res/screen/ios/screen-iphone-portrait-736h.png"               platform="ios" width="1242" height="2208" />
@@ -102,8 +102,8 @@
     </platform>
 
     <platform name="wp8">
-        <icon   src="www/res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
-        <icon   src="www/res/icon/wp8/Background.png"        platform="wp8" width="159" height="159" />
+        <icon   src="www/res/icons/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
+        <icon   src="www/res/icons/wp8/Background.png"        platform="wp8" width="159" height="159" />
         <splash src="www/res/screen/wp8/SplashScreenImage.jpg" platform="wp8" width="768" height="1280" />
     </platform>
 
@@ -117,9 +117,9 @@
         <!-- <icon src="www/res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
         <!-- <icon src="www/res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
         <!-- <icon src="www/res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <icon src="www/res/icon/windows/logo.png"     platform="windows"   width="150"  height="150" />
-        <icon src="www/res/icon/windows/smalllogo.png"       platform="windows"   width="30"   height="30" />
-        <icon src="www/res/icon/windows/storelogo.png"             platform="windows"   width="50"   height="50" />
+        <icon src="www/res/icons/windows/logo.png"     platform="windows"   width="150"  height="150" />
+        <icon src="www/res/icons/windows/smalllogo.png"       platform="windows"   width="30"   height="30" />
+        <icon src="www/res/icons/windows/storelogo.png"             platform="windows"   width="50"   height="50" />
         <splash src="www/res/screen/windows/splashscreen.png"      platform="windows"   width="620"  height="300" />
         <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
     </platform>
