@@ -37,13 +37,15 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+        console.log("app init");
         app.setPage("loginpage");
+        console.log("add event to submit button");
         $("#submit").click(function(e){
             e.preventDefault();
 
             
             var a = $('*[data-nc_page="loginpage"]');
-            
+            console.log("calling ajax");
             $.ajax({
                 type:"POST",
                 url:_config.url,
@@ -55,6 +57,7 @@ var app = {
                 dataType:"jsonp",
                 timeout:25000,
                 success:function(d){
+                    console.log("ajax success");
                     if(d.error){
                         alert(d.msg);
                     }else{
@@ -63,6 +66,7 @@ var app = {
                     }
                 },
                 error:function(request,status,err){
+                    console.log("ajax error");
                     alert(status);
                 }
             });
