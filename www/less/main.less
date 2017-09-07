@@ -1,0 +1,46 @@
+/* LESS Document */
+@import "elements.less";
+@import "config.less";
+
+.nc_main_container{
+	padding:10px;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height:100%;
+	width:100%;
+	position:absolute;
+	box-sizing:border-box;
+
+	.hide{
+		display:none;
+	}
+	.ctabtn{
+		padding:10px 20px;
+		background-color:blue;
+		color:white;
+		display:block;
+	}
+
+	.page{
+		min-width:80%;
+	}
+	.page.loginpage{
+		label{
+			display:block;
+			margin:10px 0;
+		}
+		input{
+			display:block;
+			padding:5px 10px;
+		}
+		.cta_cont{
+			margin:10px 0;
+		}
+	}
+	.page.resultpage{
+		text-align:center;
+		
+	}
+}
